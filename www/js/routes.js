@@ -64,11 +64,26 @@ var app = new Framework7({
 
     var swiper2 = new Swiper(".categorias", {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 10,
       freeMode: true,
-      loop: true,
-      autoplay: true,
-      delay: 3000,
+      breakpoints: {
+        50: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+        640: {
+          slidesPerView: 6,
+          spaceBetween: 30
+        },
+        992: {
+          slidesPerView: 12,
+          spaceBetween: 30
+        },
+        1200: {
+          slidesPerView: 12,
+          spaceBetween: 30
+        }
+      }
     });
 		},
 		pageBeforeRemove: function (event, page) {
