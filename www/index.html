@@ -32,21 +32,22 @@
             <div class="toolbar toolbar-bottom">
                 <div class="toolbar-inner display-flex">
                     <a href="/index/" class="tab-link link active">
-                        <i class="mdi mdi-home-outline"></i>
-                        <span>home</span>
+                        <i class="mdi mdi-home-circle"></i>
+                        <span>Home</span>
                     </a>
                     <a href="/link2/" class="tab-link link">
                         <i class="mdi mdi-magnify"></i>
-                        <span>Pesquisa</span>
+                        <span>Buscar</span>
                     </a>
                     <a href="/link3/" class="tab-link link">
-                        <i class="mdi mdi-heart-outline"></i>
+                        <i class="mdi mdi-heart-circle"></i>
                         <span>Favoritos</span>
                     </a>
                     <a href="/link4/" class="tab-link link">
-                        <i class="mdi mdi-account-outline"></i>
-                        <span>Perfil</span>
+                        <i class="mdi mdi-account-circle"></i>
+                        <span>Usuário</span>
                     </a>
+
                 </div>
             </div>
 
@@ -56,104 +57,130 @@
                 <!-- Top Navbar -->
                 <div class="top-nav">
                     <h1 class="title-logo"><span>Green</span> UFOPA</h1>
-                    <a href="" class="btn-carrinho" data-count="0">
-                        <i class="mdi mdi-shopping-outline"></i>
+                    <a href="carrinho.html" class="btn-carrinho" data-count="5">
+                        <i class="mdi mdi-cart"></i>
                     </a>
                 </div>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="O que você procura?">
+                <form>
+                    <input placeholder="O que você procura?" type="text">
                     <i class="icone-busca mdi mdi-magnify"></i>
                 </form>
 
                 <!-- Scrollable page content -->
                 <div class="page-content">
                     <div class="block no-margin-top">
-                        <!-- Swiper -->
+                         <!-- Swiper -->
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="img/prop.png" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/propaganda2.png" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/propaganda3.png" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/propaganda4.png" alt="">
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="img/prop.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/propaganda2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/propaganda3.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/propaganda4.png">
+                            </div>
+                            
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
 
                         <div class="display-flex align-itens-center justify-content-space-between">
                             <h2>Categorias</h2>
-                            <a href="#">Veja Mais <i class="mdi mdi-arrow-right"></i></a>
+                            <a href="#">Veja todas <i class="mdi mdi-arrow-right"></i></a>
                         </div>
+
+                         <!-- Swiper -->
                         <div class="swiper categorias">
                             <div class="swiper-wrapper">
+                            <div class="swiper-slide">
                                 <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn active">Todas</button>
-                                    </div>
+                                    <button class="filter-btn active">
+                                        Todas
+                                    </button>
                                 </div>
+                            </div>
+                            <div class="swiper-slide">
                                 <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Celulares</button>
-                                    </div>
+                                    <button class="filter-btn">
+                                        Celulares
+                                    </button>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Notebooks</button>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Fones de ouvido</button>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Impressoras</button>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Headsets</button>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Carregadores</button>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide">
-                                        <button class="filter-btn">Magsafe</button>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
 
-                        <div id="produtos" class="row display-flex align-items-center justify-content-start">
-                            <a href="#" class="item">
+                        <div id="produtos" class="row display-flex align-itens-center justify-content-start">
+                            <a href="#" class="item-card">
                                 <div class="img-container">
-                                    <img src="img/airpod.png" alt="">
+                                    <img src="img/airpod.png">
                                 </div>
-                                <div class="nome-aval">
+                                <div  class="nome-aval">
                                     <span class="nome-cinza">Nome do Item</span>
                                     <span class="bold margin-right">
-                                        <i class="mdi mdi-star">
-                                            4.8
-                                        </i>
+                                        <i class="mdi mdi-star"></i>
+                                        4.8
                                     </span>
-                                    <div class="preco">R$ 1.200</div>
                                 </div>
+                                <div class="preco">R$ 299</div>
+                            </a>
+                            
+                            <a href="#" class="item-card">
+                                <div class="img-container">
+                                    <img src="img/airpod.png">
+                                </div>
+                                <div  class="nome-aval">
+                                    <span class="nome-cinza">Nome do Item</span>
+                                    <span class="bold margin-right">
+                                        <i class="mdi mdi-star"></i>
+                                        4.8
+                                    </span>
+                                </div>
+                                <div class="preco">R$ 299</div>
+                            </a>
+
+                            <a href="#" class="item-card">
+                                <div class="img-container">
+                                    <img src="img/airpod.png">
+                                </div>
+                                <div  class="nome-aval">
+                                    <span class="nome-cinza">Nome do Item</span>
+                                    <span class="bold margin-right">
+                                        <i class="mdi mdi-star"></i>
+                                        4.8
+                                    </span>
+                                </div>
+                                <div class="preco">R$ 299</div>
+                            </a>
+
+                            <a href="#" class="item-card">
+                                <div class="img-container">
+                                    <img src="img/airpod.png">
+                                </div>
+                                <div  class="nome-aval">
+                                    <span class="nome-cinza">Nome do Item</span>
+                                    <span class="bold margin-right">
+                                        <i class="mdi mdi-star"></i>
+                                        4.8
+                                    </span>
+                                </div>
+                                <div class="preco">R$ 299</div>
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>

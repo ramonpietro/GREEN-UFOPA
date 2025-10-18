@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --branco: #fff;
+    --gelo: #f1f1f1;
+    --verde: #19c463;
+    --preto: #2a2a2a;
+}
+
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.prod-detail{
+    background: var(--gelo);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.prod-detail img{
+    max-width: 400px;
+}
+
+.button-top{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-top a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--branco);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.button-top a:first-child{
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.button-top a:last-child{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.prod-content{
+    background: var(--branco);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 99;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.promo-btn{
+    width: 30%;
+    background: #ef4d4d;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    color: var(--branco);
+}
+
+.line b{
+    font-size: 25px;
+}
+
+.btn-rates{
+    border: 1px solid #cbcbcb;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background: none;
+    margin-right: 5px;
+    width: 80px;
+    font-size: 18px;
+}
+.mdi-thumb-up{
+    color: var(--verde);
+}
+.mdi-star{
+    color: orange;
+}
+.reviews{
+    color: gray;
+    margin-right: 5px;
+    width: 80px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td{
+    padding: 1px;
+    text-align: center;
+    border-bottom: 1px solid var(--verde);
+    border-right: 1px solid var(--verde);
+    border-left: 1px solid var(--verde);
+}
+
+th{
+    background-color: var(--verde);
+}
+
+.flex-40{
+    flex: 40%;
+    text-align: center;
+}
+.flex-60{
+    flex: 60%;
+}
+
+.riscado{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.toolbar-inner{
+    align-items: center;
+    justify-content: center;
+}
+
+.preco-final{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.add-cart{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+}
