@@ -174,3 +174,16 @@ body{
     flex: 1;
     text-align: center;
 }
+
+.w-80 {
+    width: 80%;
+    padding: 8px 0px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gelo);
+}
+
+#totais {
+    flex-direction: column;
+}
